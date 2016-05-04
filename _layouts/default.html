@@ -4,25 +4,45 @@
 <body>
     <div class="container-fluid">
         <div class="row ">
-            <div class="col-md-3 col-xs-12 menu" style="position:fixed">
-                
+            <!-- menu superior -->
+            <nav class="navbar  visible-xs navbar-fixed-top">
+                <div class="col-xs-1">
+                    <h3><a>A+B*F</a></h2>
+                </div>
+                <div class="col-xs-11 text-right">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Menu
+                        <span class="caret"></span>
+                    </button>
+                   <ul class="dropdown-menu dropdown-menu-right"> 
+                    {% for my_page in site.pages | sort:pos %}
+                        {% if my_page.title %}
+                            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.link }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                    </ul>
+                </div>
+           </nav>
+              <!-- menu lateral -->
+            <div class="col-sm-3 col-md-3 hidden-xs menu" style="position:fixed">
                 <div class="col-md-12" id="logo">
                     <h1>A+B*F</h1>
                     Autocad+Blender*Fusion
                 </div>
                 <div class="col-md-12 text-right" style="padding:40px">
-                    {% for my_page in site.pages | sort:pos %}
-                        {% if my_page.title %}
-                        <div class="col-md-12">
+                    <div class="col-md-12">
                         <ul class="list-unstyled">
-                            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.link }}</a></li>
+                            {% for my_page in site.pages | sort:pos %}
+                                {% if my_page.title %}
+                                    <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.link }}</a></li>
+                                {% endif %}
+                            {% endfor %}
                         </ul>
-                        </div>
-                        {% endif %}
-                    {% endfor %}
+                    </div>
                 </div>
             </div>
-             <div class="col-md-9 col-xs-12 col-md-offset-3 col-xs-offset-0">
+            <!-- contenido -->
+             <div class="col-sm-9 col-md-9 col-xs-12 col-md-offset-3 col-sm-offset-3 col-xs-offset-0">
                 <div class="contenido text-justify">
                 <div class="col-md-12 header text-center">
                     <h1>{{ page.title }}</h1>
@@ -37,5 +57,12 @@
             </div>
         </div>
     </div>
+    
+    
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
 </body>
 </html>

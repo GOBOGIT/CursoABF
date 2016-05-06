@@ -19,6 +19,8 @@ github_username:  gobogit
 
 # Build settings
 markdown: kramdown
+kramdown: 
+  parse_block_html: true
 include: ["_pages"]
 permalink: /:title/ 
 sass_dir: _sass

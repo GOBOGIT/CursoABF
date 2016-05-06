@@ -1,6 +1,31 @@
 ---
 ---
 
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+    background-color: rgb(20,220,220) !important;
+}
+
+.nav-pills li {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;  
+}
+
+table{
+     width: 100%;
+}
+
+td, th {
+    border-style: solid;
+    border-width: 0px 30px 0px 0px;
+    border-color: rgba(0,0,0,0);
+}
+
+
+
+
+
 html {
      overflow-y: scroll;
 }

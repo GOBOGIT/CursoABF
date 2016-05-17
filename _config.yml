@@ -21,6 +21,10 @@ github_username:  gobogit
 markdown: kramdown
 kramdown: 
   parse_block_html: true
+  input: GFM
+  hard_wrap: false
+  highlighter: rouge
+   
 include: ["_pages"]
 permalink: /:title/ 
 sass_dir: _sass

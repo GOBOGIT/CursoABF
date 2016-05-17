@@ -1,6 +1,7 @@
 ---
 layout: default
 title: faq
+imagen: img_faq.png
 permalink: /faq/
 link: faq
 pos: 6
@@ -14,13 +15,20 @@ Te pedimos que traigas tu laptop a clase: rentar un local  y los equipos de cada
 
 Tu laptop puede ser Mac o PC, ya que el software utilizado funciona en ambos sistemas operativos. Ciertamente, estamos hablando de procesos que requieren bastante potencia gráfica; por ello te pedimos que revises las necesidades mínimas:
 
-[requerimientos hardware]
+&nbsp;
+
+| Mínimo | Recomendado |
+|:-|:-|
+| 64-bit dual core 2Ghz  CPU | 64-bit quad core CPU
+| 4 GB RAM | 8 GB RAM
+| Pantalla: 24 bits 1280×768 display | Pantalla: Full HD display with 24 bit color
+| Ratón de 3 botones | Ratón de 3 botones
+| OpenGL 2.1 compatible graphics with 1 GB RAM | OpenGL 3.2 compatible graphics with 2 GB RAM
+| Disco duro: 1TB | Disco duro: 1TB 
+
+&nbsp;
 
 El software que usaremos y que te animamos instales de iniciar el curso son los siguientes:
-
-Autocad (prueba gratuita de 30 días)
-
-	[enlace Autocad]
 
 Blender 3D (gratuito)
 
@@ -40,42 +48,41 @@ ara ello ponte en contacto, porque antes de cada curso vamos a realizar una reun
 
 No podemos obligarte a que vengas, pero consideramos fundamental tu presencia; en clase obtendrás los conocimientos de primera mano y podrás ser parte del grupo, involucrándote en las decisiones que vayamos tomando a lo largo del curso. 
 
-#### Pagos
-Los pagos realizan en dos partes: antes de empezar el curso y en el ecuador de éste, en la cuarta semana. 
+#### Pago
+
+Un pago único una semana antes de empezar el curso.
 
 Puedes realizar el pago en efectivo o por transferencia, a la siguiente cuenta:
 
-        [CLABE banco]
+	Banco Scotiabank México
+	Jardines de la Hacienda, Blvd Hacienda del Jacal nº 220.
+	Querétaro, Qro.
+	CLABE: 044680035043068997
+
+¿Necesitas Factura?
+
+Para solicitar tu factura, danos los datos de facturación antes del pago.
+
 
 #### Devoluciones y cancelaciones
 
-Te vamos a dar toda la información antes del curso para que puedas decidir si te conviene tomar el curso con nosotros; pero entendemos que puedas cambiar de opinión o te surjan problemas de última hora; por ello te devolveremos los pagos que realices con las siguientes condiciones:
+Te vamos a dar toda la información antes del curso para que puedas decidir si te conviene tomar el curso, pero entendemos que puedas cambiar de opinión o te surjan problemas de última hora; por ello te devolveremos los pagos que realices por ello podrás cancelar el curso y pedir tu devolución en 
 
-Los pagos que se hayan realizado una semana antes del curso.
+los pagos que se hayan realizado una semana antes del curso.
 
-El segundo pago del curso completo siempre que se avise con una semana de antelación.
+No está incluidos los pagos realizados una semana antes o durante el transcurso del curso
 
-**No están incluidos:**
 
-Los pagos realizados una semana antes del curso u módulo
+#### Precio
 
-Una vez iniciado cada módulo (el pago correspondiente a la parte proporcional del curso que se esté tomando)
+Curso completo:  4,500.00 en un pago único
 
-#### Precios
+#### Contacto
 
-Curso completo:  6,500.00 en dos pagos de 3.250,00
+Carlos Santos Mateo, profesor:
 
-Módulo de autocad: pago único de 3,500.00
+<a href="mailto:carlos@gobo,tv">carlos@gobo.tv</a>
 
-Módulo de Blender 3D + Fusion: pago único de 3,500.00
+<a href="http://www.gobo.tv">gobo.tv</a>
 
-#### Enlace para inscripción / informes
-
-Ponte en contacto con nosotros a través del formulario
-
-    [página formulario]
-
-Contacto profesores:
-
-	Emai  / celular Joaquin (profesor CAD)
-	Email / celular Carlos (profesor Blender 3D + Fusion
+cel: 044 442 237 5965

@@ -1,8 +1,9 @@
 ---
 layout: default
-title: profesores
-permalink: /profesores/
-link: profesores
+title: profesor
+imagen: img_profesor.png
+permalink: /profesor/
+link: profesor
 pos: 4
 ---
 

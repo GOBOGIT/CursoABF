@@ -1,8 +1,8 @@
 ---
 layout: default
-title: |
-    A+B*F :    
-    El curso de visualización arquitectónica
+title: CURSO MOTIONGRAHICS
+subtitle: Blender 3D + Fusion // 2016
+imagen: img_portada.png
 permalink: /
 link: Inicio
 pos: 1
@@ -10,19 +10,22 @@ pos: 1
 
 &nbsp;
 
-<div class="alert alert-success text-center">
+<div class="alert alert-success alert-dismissible text-center">
+<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 &nbsp;
 <strong>Abierto el registro para el próximo curso!</strong>
 <p>Registrate y entra en la lista; sólo hay 10 lugares</p>
+&nbsp;
+<P><a class="btn btn-default" href="#" role="button">PRE - REGISTRO</a></P>
 </div>
 
 &nbsp;
 
-### Módulo Blender 3D + Fusion
+### Blender 3D + Fusion
 
-El módulo de  Blender 3D + Fusion va dirigido a alumnos que deseen conocer una herramienta 3D multipropósito como Blender 3D y la potencia de composición y manipulación de imágenes que ofrece Blackmagic Fusion, para realizar un render realista a partir de un modelo CAD.
+El curso de Animación 3D y Composición de efectos va dirigido a alumnos que deseen conocer una herramienta 3D multipropósito como Blender 3D y la potencia de composición y manipulación de imágenes que ofrece Blackmagic Fusion, para realizar una animación 3d tipo motiongraphics.
 
-A partir de herramientas profesionales como Autocad, Blender 3D y BlackMagic Fusion, y en clases reducidas de 10 alumnos por curso, con profesores cualificados con amplia experiencia.
+A partir de las herramientas profesionales Blender 3D y BlackMagic Fusion, y en clases reducidas de 10 alumnos por curso, con un profesor cualificado y con amplia experiencia.
 
 ### A quién va dirigido
 

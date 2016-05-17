@@ -7,19 +7,11 @@ permalink: /
 link: Inicio
 pos: 1
 ---
-
-&nbsp;
-
 <div class="alert alert-success alert-dismissible text-center">
 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-&nbsp;
 <strong>Abierto el registro para el próximo curso!</strong>
-<p>Registrate y entra en la lista; sólo hay 10 lugares</p>
-&nbsp;
-<P><a class="btn btn-default" href="#" role="button">PRE - REGISTRO</a></P>
+<p>Registrate y entra en la lista; sólo tenemos 10 lugares</p>
 </div>
-
-&nbsp;
 
 ### Blender 3D + Fusion
 

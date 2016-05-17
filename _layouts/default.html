@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
-
-            <!-- contenido -->
-             <div class="col-sm-10 col-md-10 col-xs-12 col-md-offset-2 col-sm-offset-2 col-xs-offset-0">
-                <div class="contenido text-justify">
-                <div class="col-md-12 header text-center">
-                    <img src="{{ site.baseurl }}/assets/{{page.imagen}}" alt="imgPortada" />
-                </div>
-                {{ content }}                
-               
-                {% unless my_page.title contains 'Home' %}
-                   {% include foot.html %}
-                {% endunless %}
-            </div>
+    {% include head.html %}
+    <!-- contenido -->
+    <div class="col-sm-10 col-md-10 col-xs-12 col-md-offset-2 col-sm-offset-2 col-xs-offset-0">
+        <div class="contenido text-justify">
+        <div class="col-md-12 header text-center">
+            <img src="{{ site.baseurl }}/assets/{{page.imagen}}" alt="imgPortada" />
         </div>
+        &nbsp;
+        {% include registro.html %}
+        {{ content }}                
+        {% include foot.html %}
+        </div>
+    </div>
     </div>   
-     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-    </script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
-</body>
+    <!-- mailerlite -->
+    <script type="text/javascript" src="//static.mailerlite.com/js/w/webforms.min.js?v1f5fd6d2b6c45ddf1750001fab8dcf30"></script>
+    </body>
 </html>

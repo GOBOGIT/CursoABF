@@ -6,45 +6,41 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="{{ site.baseurl }}/css/estilos.css" >
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/estilos.css" >
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row ">
-            <!-- menu superior -->
-            <nav class="navbar  visible-xs navbar-fixed-top">
-                <div class="col-xs-1">
-                   <img src="{{ site.baseurl }}/assets/logoCurso.png"  width="100%"/>
-                </div>
-                <div class="col-xs-11 text-right">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        Menu
-                        <span class="caret"></span>
-                    </button>
-                   <ul class="dropdown-menu dropdown-menu-right"> 
-                    {% for my_page in site.pages | sort:pos %}
-                        {% if my_page.title %}
-                            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.link }}</a></li>
-                        {% endif %}
-                    {% endfor %}
+<div class="container-fluid">
+    <div class="row ">
+        <!-- menu superior -->
+        <nav class="navbar  visible-xs navbar-fixed-top">
+            <div class="col-xs-1">
+                <img src="{{ site.baseurl }}/assets/logoCurso_inv.png"  width="100%"/>
+            </div>
+            <div class="col-xs-11 text-right">
+                <button class="btn btn-default dropdown-toggle btn-xs" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Menu
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                {% assign paginas = site.pages  | sort:'pos' %}
+                {% for my_page in paginas %}{% if my_page.title %}
+                    <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.link | pos }}</a></li>
+                {% endif %}{% endfor %}
+                </ul>
+            </div>
+        </nav>
+        <!-- menu lateral -->
+        <div class="col-sm-2 col-md-2 hidden-xs menu text-right" style="position:fixed">
+            <img id="logo" src="{{ site.baseurl }}/assets/logoCurso.png"  width="60%"/>
+            <div class="col-md-12" >
+                <div class="col-md-12" style="padding-right:10px">
+                    <ul class="list-unstyled">
+                    {% assign paginas = site.pages  | sort:'pos' %}
+                    {% for my_page in paginas %}{% if my_page.title %}
+                        <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.link }}</a></li>
+                    {% endif %}{% endfor %}
                     </ul>
                 </div>
-           </nav>
-           
-              <!-- menu lateral -->
-            <div class="col-sm-2 col-md-2 hidden-xs menu text-right" style="position:fixed">
-                     <img id="logo" src="{{ site.baseurl }}/assets/logoCurso.png"  width="60%"/>
-               
-                <div class="col-md-12" >
-                    <div class="col-md-12" style="padding-right:10px">
-                        <ul class="list-unstyled">
-                            {% for my_page in site.pages | sort:pos %}
-                                {% if my_page.title %}
-                                    <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.link }}</a></li>
-                                {% endif %}
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
             </div>
-<!-- continua body -->
+        </div>
+<!-- fin head.html -->

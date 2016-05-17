@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Estructura  y formato
-imagen: img_estructura.png
+imagen: img_estructura_inv.png
 permalink: /estructura/
 link: Estructura
 pos: 3

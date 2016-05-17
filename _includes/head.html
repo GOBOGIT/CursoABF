@@ -3,8 +3,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">  
     <title>{{ page.title }}</title>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
    <link rel="stylesheet" href="{{ site.baseurl }}/css/estilos.css" >
 </head>
 <body>
@@ -33,8 +34,9 @@
               <!-- menu lateral -->
             <div class="col-sm-2 col-md-2 hidden-xs menu text-right" style="position:fixed">
                      <img id="logo" src="{{ site.baseurl }}/assets/logoCurso.png"  width="60%"/>
+               
                 <div class="col-md-12" >
-                    <div class="col-md-12">
+                    <div class="col-md-12" style="padding-right:10px">
                         <ul class="list-unstyled">
                             {% for my_page in site.pages | sort:pos %}
                                 {% if my_page.title %}

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: profesor
-imagen: img_profesor.png
+imagen: img_profesor_inv.png
 permalink: /profesor/
 link: profesor
 pos: 4

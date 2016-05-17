@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Objetivos del curso
-imagen: img_objetivos.png
+imagen: img_objetivos_inv.png
 permalink: /Objetivos/
 link: Objetivos
 pos: 2

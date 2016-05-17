@@ -1,7 +1,7 @@
 ---
 layout: default
 title: faq
-imagen: img_faq.png
+imagen: img_faq_inv.png
 permalink: /faq/
 link: faq
 pos: 6

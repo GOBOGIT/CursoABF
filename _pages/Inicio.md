@@ -2,7 +2,7 @@
 layout: default
 title: CURSO MOTIONGRAHICS
 subtitle: Blender 3D + Fusion // 2016
-imagen: img_portada.png
+imagen: img_portada_inv.png
 permalink: /
 link: Inicio
 pos: 1

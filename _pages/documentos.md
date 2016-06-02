@@ -14,7 +14,7 @@ pos: 7
 
 <div class="row text-center">
 <div class="col-md-4 col-sm-4 col-xs-6">
-<i class="fa fa-file-text-o fa-3x" aria-hidden="true"></i>
+[<i class="fa fa-file-text-o fa-3x" aria-hidden="true"></i>](../assets/PresentacionABF.pdf){:target="_blank"}
 <p>Presentación del curso</p>
 </div>
 
@@ -25,6 +25,6 @@ pos: 7
 
 <div class="col-md-4 col-sm-4 col-xs-6">
 <i class="fa fa-download fa-3x" aria-hidden="true"></i>
-<p>Archivos Blender 3D</p>
+<p>Archivos</p>
 </div>
 </div>

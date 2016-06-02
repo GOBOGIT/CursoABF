@@ -30,6 +30,10 @@ Tu laptop puede ser Mac o PC, ya que el software utilizado funciona en ambos sis
 
 El software que usaremos y que te animamos instales de iniciar el curso son los siguientes:
 
+Autocad
+	
+	[dirección autocad]
+
 Blender 3D (gratuito)
 
 	[htttp://www.blender3d.org]
@@ -50,39 +54,42 @@ No podemos obligarte a que vengas, pero consideramos fundamental tu presencia; e
 
 #### Pago
 
-Un pago único una semana antes de empezar el curso.
-
-Puedes realizar el pago en efectivo o por transferencia, a la siguiente cuenta:
-
-	Banco Scotiabank México
-	Jardines de la Hacienda, Blvd Hacienda del Jacal nº 220.
-	Querétaro, Qro.
-	CLABE: 044680035043068997
-
-¿Necesitas Factura?
+Un pago único una semana antes de empezar el curso o módulo
 
 Para solicitar tu factura, danos los datos de facturación antes del pago.
 
 
+
 #### Devoluciones y cancelaciones
 
-Te vamos a dar toda la información antes del curso para que puedas decidir si te conviene tomar el curso, pero entendemos que puedas cambiar de opinión o te surjan problemas de última hora; por ello te devolveremos los pagos que realices por ello podrás cancelar el curso y pedir tu devolución en 
+¿?
 
-los pagos que se hayan realizado una semana antes del curso.
+#### Precios
 
-No está incluidos los pagos realizados una semana antes o durante el transcurso del curso
+Curso completo:  $6,500.00 pesos, en dos pagos de $3.250.00 
 
+Módulo de Autocad por separado: pago único de $3,500.00
 
-#### Precio
+ódulo de Blender 3D + Fusion por separado: pago único de $3,500.00
 
-Curso completo:  4,500.00 en un pago único
 
 #### Contacto
+Carlos Santos Mateo
 
-Carlos Santos Mateo, profesor:
+[www.gobo.tv](http://www.gobo.tv)
 
-<a href="mailto:carlos@gobo,tv">carlos@gobo.tv</a>
+[carlos@gobo.tv](mailto:carlos@gobo.tv)
 
-<a href="http://www.gobo.tv">gobo.tv</a>
+[linkedin](https://mx.linkedin.com/in/gobolinkedin)
 
-cel: 044 442 237 5965
+cel. 044 442 237 5965
+
+&nbsp;
+
+Joaquín Ontiveros
+
+[Joaquín_ontiveros@hotmail.com](Joaquín_ontiveros@hotmail.com)
+
+Cel. 044 442 156 0843
+
+
